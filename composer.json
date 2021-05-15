@@ -24,5 +24,6 @@
 		"psr-4": {
 			"WebDevStudios\\WD_S\\": "src"
 		}
-	}
+	},
+	"minimum-stability": "dev"
 }
