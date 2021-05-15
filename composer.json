@@ -1,0 +1,28 @@
+{
+	"name": "webdevstudios/wd_s-scaffold",
+	"description": "Generates a new theme based on wd_s.",
+	"type": "wp-cli-package",
+	"authors": [
+		{
+			"name": "Michael Joseph Panaga",
+			"email": "michael.panaga@webdevstudios.com"
+		}
+	],
+	"require": {
+		"wp-cli/wp-cli": "^2.4"
+	},
+	"require-dev": {
+		"wp-coding-standards/wpcs": "^2.3",
+		"dealerdirect/phpcodesniffer-composer-installer": "0.6"
+	},
+	"extra": {
+		"commands": [
+			"scaffold wd_s"
+		]
+	},
+	"autoload": {
+		"psr-4": {
+			"WebDevStudios\\WD_S\\": "src"
+		}
+	}
+}
