@@ -1,5 +1,5 @@
 {
-	"name": "webdevstudios/wd_s-scaffold",
+	"name": "donmhico/wd_s-scaffold",
 	"description": "Generates a new theme based on wd_s.",
 	"type": "wp-cli-package",
 	"authors": [
