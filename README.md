@@ -3,6 +3,12 @@ wp scaffold wd_s
 
 Generates a new theme based on wd_s.
 
+## Installation
+
+~~~
+wp package install donmhico/wd_s-scaffold:@dev
+~~~
+
 ## Usage
 
 ~~~
