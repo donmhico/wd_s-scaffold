@@ -1,34 +1,33 @@
 {
-	"name": "donmhico/wd_s-scaffold",
-	"description": "Generates a new theme based on wd_s.",
-	"type": "wp-cli-package",
-	"authors": [
-		{
-			"name": "Michael Joseph Panaga",
-			"email": "michael.panaga@webdevstudios.com"
-		}
-	],
-	"require": {
-		"wp-cli/wp-cli": "^2.4"
-	},
-	"require-dev": {
-		"wp-coding-standards/wpcs": "^2.3",
-		"dealerdirect/phpcodesniffer-composer-installer": "0.6"
-	},
-	"extra": {
-		"branch-alias": {
-            "dev-master": "1.x-dev"
-        },
+    "name": "donmhico/wd_s-scaffold",
+    "type": "wp-cli-package",
+    "description": "Generates a new theme based on wd_s.",
+    "authors": [
+        {
+            "name": "Michael Joseph Panaga",
+            "email": "michael.panaga@webdevstudios.com"
+        }
+    ],
+    "require": {
+        "wp-cli/wp-cli": "^2.4"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
         "bundled": true,
-		"commands": [
-			"scaffold wd_s"
-		]
-	},
-	"autoload": {
-		"psr-4": {
-			"WebDevStudios\\WD_S\\": "src"
-		}
-	},
-	"minimum-stability": "dev",
-	"prefer-stable": true
+        "commands": [
+            "scaffold wd_s"
+        ]
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        },
+        "files": [
+            "command.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }

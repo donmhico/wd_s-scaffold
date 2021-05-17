@@ -1,6 +1,7 @@
 <?php
-namespace WebDevStudios\WD_S;
-
+/**
+ * Plugin Name: WD_S Scaffold
+ */
 use WP_CLI;
 
 if ( ! class_exists( 'WP_CLI' ) ) {
@@ -13,4 +14,4 @@ if ( file_exists( $autoloader ) ) {
 }
 
 
-WP_CLI::add_command( 'scaffold wd_s', __NAMESPACE__ . '\Command' );
+WP_CLI::add_command( 'scaffold wd_s', 'WDS_Command' );

@@ -1,6 +1,4 @@
 <?php
-namespace WebDevStudios\WD_S;
-
 use WP_CLI;
 use WP_CLI\Utils;
 
@@ -9,7 +7,7 @@ use WP_CLI\Utils;
  *
  * @see WP_CLI_Command
  */
-class Command extends \WP_CLI_Command {
+class WDS_Command extends \WP_CLI_Command {
 	/**
 	 * URL of WD_s generator
 	 *
