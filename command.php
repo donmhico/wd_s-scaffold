@@ -3,10 +3,6 @@ namespace WebDevStudios\WD_S;
 
 use WP_CLI;
 
-/**
- * Plugin Name: WD_S Scaffold
- */
-
 if ( ! class_exists( 'WP_CLI' ) ) {
 	return;
 }
