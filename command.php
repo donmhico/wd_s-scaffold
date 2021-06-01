@@ -1,5 +1,11 @@
 <?php
-namespace WebDevStudios\WD_S;
+/**
+ * WD_S Scaffold Command
+ *
+ * @package WD_S_Scaffold_CLI
+ */
+
+namespace WebDevStudios\WD_S_Scaffold_CLI;
 
 use WP_CLI;
 

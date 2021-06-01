@@ -22,12 +22,16 @@
     },
     "autoload": {
         "psr-4": {
-            "WebDevStudios\\WD_S\\": "src/"
+            "WebDevStudios\\WD_S_Scaffold_CLI\\": "src/"
         },
         "files": [
             "command.php"
         ]
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "0.6",
+        "wp-coding-standards/wpcs": "^2.3"
+    }
 }
